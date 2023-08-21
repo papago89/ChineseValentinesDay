@@ -64,7 +64,7 @@ body {
     display: none
 }
 
-#code {
+#message {
     float: left;
     width: 440px;
     margin-top: 60px !important;
@@ -74,32 +74,25 @@ body {
     font-size: 12px
 }
 
-#code .string {
+#message .string {
     color: #2a36ff
 }
 
-#code .keyword {
+#message .keyword {
     color: #7f0055;
     font-weight: bold
 }
 
-#code .placeholder {
+#message .placeholder {
     margin-left: 15px
 }
 
-#code .space {
+#message .space {
     margin-left: 7px
 }
 
-#code .comments {
+#message .line {
     color: #3f7f5f
-}
-
-#copyright {
-    margin-top: 40px;
-    text-align: center;
-    width: 100%;
-    color: #666
 }
 
 #errorMsg {
@@ -109,8 +102,4 @@ body {
     position: absolute;
     top: 100px;
     left: 0
-}
-
-#copyright a {
-    color: #666
 }

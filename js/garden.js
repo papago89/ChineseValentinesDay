@@ -129,13 +129,13 @@ Garden.prototype = {
 	}
 };
 Garden.options = {
-	petalCount: {min: 8, max: 15},
-	petalStretch: {min: 0.1, max: 3},
-	growFactor: {min: 0.1, max: 1},
-	bloomRadius: {min: 8, max: 10},
+	petalCount: { min: 8, max: 15 },
+	petalStretch: { min: 0.1, max: 3 },
+	growFactor: { min: 0.1, max: 1 },
+	bloomRadius: { min: 8, max: 10 },
 	density: 10,
 	growSpeed: 1000 / 60,
-	color: {rmin: 128, rmax: 255, gmin: 0, gmax: 128, bmin: 0, bmax: 128, opacity: 0.1},
+	color: { rmin: 0, rmax: 128, gmin: 0, gmax: 128, bmin: 128, bmax: 255, opacity: 0.1 },
 	tanAngle: 60
 };
 Garden.random = function (b, a) {

@@ -12,8 +12,8 @@ $(function () {
 	gardenCtx = gardenCanvas.getContext("2d");
 	gardenCtx.globalCompositeOperation = "lighter";
 	garden = new Garden(gardenCtx, gardenCanvas);
-	$("#content").css("width", $loveHeart.width() + $("#code").width());
-	$("#content").css("height", Math.max($loveHeart.height(), $("#code").height()));
+	$("#content").css("width", $loveHeart.width() + $("#message").width());
+	$("#content").css("height", Math.max($loveHeart.height(), $("#message").height()));
 	$("#content").css("margin-top", Math.max(($window.height() - $("#content").height()) / 2 - 50, 10));
 	$("#content").css("margin-left", Math.max(($window.width() - $("#content").width()) / 2, 10));
 	setInterval(function () {
@@ -120,8 +120,8 @@ function adjustWordsPosition() {
 	$("#words").css("left", $("#garden").position().left + 70)
 }
 
-function adjustCodePosition() {
-	$("#code").css("margin-top", ($("#garden").height() - $("#code").height()) / 2)
+function adjustMessagePosition() {
+	$("#message").css("margin-top", ($("#garden").height() - $("#message").height()) / 2)
 }
 
 function showLoveU() {
